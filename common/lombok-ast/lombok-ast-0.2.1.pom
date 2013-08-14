@@ -30,4 +30,24 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+   <developers>
+        <developer>
+            <id>rzwitserloot</id>
+            <name>Reinier Zwitserloot</name>
+            <email>reinier@projectlombok.org</email>
+            <url>http://zwitserloot.com</url>
+            <timezone>+1</timezone>
+        </developer>
+        <developer>
+            <id>rspilker</id>
+            <name>Roel Spilker</name>
+            <email>roel@projectlombok.org</email>
+            <timezone>+1</timezone>
+        </developer>
+        <developer>
+            <id>rgrootjans</id>
+            <name>Robbert Jan Grootjans</name>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
 </project>
