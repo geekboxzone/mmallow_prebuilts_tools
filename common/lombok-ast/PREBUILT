@@ -16,6 +16,32 @@ which basically adds an extra field to the nodes to track
 the original source AST node. The lombok-ast-0.2.1-src.zip
 includes these diffs.
 
-NOTE 2: Some additional fixes were applied on top of 0.2.1
-to create 0.2.2 (where we support ECJ 4.2). The patch
-to apply is provided in lombok-ast-0.2.2-patch.diff .
+NOTE 2: Lombok.AST was combined with Guava 13.0.1 to match
+what is used in the rest of the tools, and Guava was also
+removed from the lombok binary (which by default jarjar's it
+into the lombok.jar), since it will always be used in a
+context where Guava is already ready, so no point in bundling
+a private copy.
+
+diff --git a/build.xml b/build.xml
+index 3575ecf..11570d0 100644
+--- a/build.xml
++++ b/build.xml
+@@ -231,6 +231,7 @@
+                <unjar dest="build/lombok.ast">
+                        <path refid="runtime.path" />
+                </unjar>
++                <delete dir="build/lombok.ast/com/google" />
+        </target>
+
+        <target name="dist" depends="compile, version, unpackLibs" description="Creates distributable.">
+@@ -240,7 +241,9 @@
+                        <fileset dir="build/lombok.ast" />
+                        <fileset dir="." includes="LICENSE" />
+                        <fileset dir="." includes="AUTHORS" />
++<!--
+                        <rule pattern="com.google.common.**" result="lombok.ast.libs.com.google.common.@1" />
++-->
+                        <rule pattern="org.parboiled.**" result="lombok.ast.libs.org.parboiled.@1" />
+                        <rule pattern="com.zwitserloot.cmdreader.**" result="lombok.ast.libs.com.zwitserloot.cmdreader.@1
+                        <manifest>
