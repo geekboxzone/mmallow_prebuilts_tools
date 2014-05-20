@@ -3,8 +3,8 @@
   <groupId>org.apache.httpcomponents</groupId>
   <artifactId>httpcomponents-client</artifactId>
   <versioning>
-    <latest>4.3-alpha1</latest>
-    <release>4.3-alpha1</release>
+    <latest>4.3.3</latest>
+    <release>4.3.3</release>
     <versions>
       <version>4.0-alpha1</version>
       <version>4.0-alpha2</version>
@@ -29,8 +29,17 @@
       <version>4.2.1</version>
       <version>4.2.2</version>
       <version>4.2.3</version>
+      <version>4.2.4</version>
+      <version>4.2.5</version>
+      <version>4.2.6</version>
       <version>4.3-alpha1</version>
+      <version>4.3-beta1</version>
+      <version>4.3-beta2</version>
+      <version>4.3</version>
+      <version>4.3.1</version>
+      <version>4.3.2</version>
+      <version>4.3.3</version>
     </versions>
-    <lastUpdated>20130120212910</lastUpdated>
+    <lastUpdated>20140226042631</lastUpdated>
   </versioning>
 </metadata>
