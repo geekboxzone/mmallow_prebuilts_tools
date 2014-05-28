@@ -26,3 +26,12 @@ There are a few different ways to add artifacts to these repositories:
         -DgeneratePom=true \
         -DlocalRepositoryPath=repo \
         -DcreateChecksum=true
+
+3. Adding all the dependencies for a maven plugin can be accomplished
+   as follows:
+     - Create a maven settings.xml file with a pointer to an empty
+       folder as the localRepository.
+     - Run the maven task using that settings.xml
+     - When the task runs, all the necessary artifacts will be downloaded
+       into that local repository.
+     - Copy over the contents of that repository into this folder.
