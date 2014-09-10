@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.ow2.asm</groupId>
-  <artifactId>asm-parent</artifactId>
+  <artifactId>asm-debug-all</artifactId>
   <versioning>
     <latest>5.0.3</latest>
     <release>5.0.3</release>
@@ -16,6 +16,6 @@
       <version>5.0.2</version>
       <version>5.0.3</version>
     </versions>
-    <lastUpdated>20140524083311</lastUpdated>
+    <lastUpdated>20140524083310</lastUpdated>
   </versioning>
 </metadata>
