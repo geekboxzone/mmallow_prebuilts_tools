@@ -3,7 +3,6 @@
   <groupId>org.jacoco</groupId>
   <artifactId>org.jacoco.build</artifactId>
   <versioning>
-    <latest>0.7.4.201502262128</latest>
     <release>0.7.4.201502262128</release>
     <versions>
       <version>0.5.3.201107060350</version>
@@ -22,10 +21,9 @@
       <version>0.6.5.201403032054</version>
       <version>0.7.0.201403182114</version>
       <version>0.7.1.201405082137</version>
-      <version>0.7.2.201409121644</version>
-      <version>0.7.3.201502191951</version>
+      <version>0.7.3.201501221555</version>
       <version>0.7.4.201502262128</version>
     </versions>
-    <lastUpdated>20150227135725</lastUpdated>
+    <lastUpdated>20150309171601</lastUpdated>
   </versioning>
 </metadata>
