@@ -2,12 +2,15 @@
 <metadata>
   <groupId>org.eclipse.jdt.core.compiler</groupId>
   <artifactId>ecj</artifactId>
+  <version>4.4.2</version>
   <versioning>
-    <latest>4.4</latest>
-    <release>4.4</release>
+    <latest>4.4.2</latest>
+    <release>4.4.2</release>
     <versions>
       <version>P20140317-1600</version>
       <version>3.3.1</version>
+      <version>3.5.0</version>
+      <version>3.5.1</version>
       <version>3.7</version>
       <version>3.7.1</version>
       <version>3.7.2</version>
@@ -15,7 +18,9 @@
       <version>4.2.2</version>
       <version>4.3.1</version>
       <version>4.4</version>
+      <version>4.4.1</version>
+      <version>4.4.2</version>
     </versions>
-    <lastUpdated>20140627161657</lastUpdated>
+    <lastUpdated>20150307132335</lastUpdated>
   </versioning>
 </metadata>
